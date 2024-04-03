@@ -1,0 +1,55 @@
+
+
+@media (max-width:425px) {
+  .photo {
+      width: 100%;
+      margin: 0 auto;
+    }
+  .blogg{
+    margin: 0 auto;
+  }
+.hobby-text{
+  margin: 10px auto;
+  width: 99%;
+}
+
+
+  }
+ 
+
+
+@media (max-width:760px){
+
+
+
+
+
+
+
+
+
+
+
+
+  .burger{display: flex;}
+
+  .navbar-menu{
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    height: 300px;
+    width: 50%;
+    z-index: 50;
+    
+    
+    background-color:black ;
+    animation: burgerAnimation 0.4s;
+  }
+
+    .navbar-menu li a {
+      margin:15px;
+      font-weight: 900;
+      color: var(--main-color);
+    }
+}
+
