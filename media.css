@@ -1,21 +1,7 @@
 
 
-@media (max-width:425px) {
-  .photo {
-      width: 100%;
-      margin: 0 auto;
-    }
-  .blogg{
-    margin: 0 auto;
-  }
-.hobby-text{
-  margin: 10px auto;
-  width: 99%;
-}
 
 
-  }
- 
 
 
 @media (max-width:760px){
