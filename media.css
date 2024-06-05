@@ -4,10 +4,34 @@
 
 
 
-@media (max-width:760px){
+@media (max-width:830px){
+  
+  
 
+  .photka{
+    width: 50%;
+      flex: 1 1 45%;
+  }
 
-
+  .hobby-text {
+      flex-grow: 1;
+      width: 50%;
+  
+  
+  
+  
+  
+  
+    }
+        .blogg {
+          width: 50%;
+          box-shadow: 0 4px 10px rgb(0, 0, 0, .1);
+          flex-grow: 1;
+          margin: 10px;
+        }
+.img1 {
+  width: 100%;
+}
 
 
 
@@ -40,7 +64,35 @@
   }
 
  
-   
- 
+     @media (max-width:572px) {
 
+.hobby-text {
+    flex-grow: 1;
+    width: 100%;
+
+
+
+
+
+
+  }
+.blogg {
+  width: 100%;
+  box-shadow: 0 4px 10px rgb(0, 0, 0, .1);
+  flex-grow: 1;
+  margin: 10px;
+
+     }
+     .portfolio-images li a{
+      display: none;
+     }
+.photka {
+  width: 100%;
+  flex: 1 1 95%;
+}
+.img1{
+  width: 100%;
+}
+ 
+    }
 
